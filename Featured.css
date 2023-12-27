@@ -1,0 +1,379 @@
+/*Products General */
+
+.book{
+    background: url('ftr.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-image: 100%;
+  }
+  
+  .book .book .heading h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .book .book-menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 200px));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  /*Murder Mystery */
+  
+  .latte{
+    text-align: center;
+  }
+  
+  
+  .book .book-menu .item{
+    text-align: center;
+  }
+  
+  .book .book-menu .item  img{
+    width: 80%;
+    height: 180px;
+    object-fit: contain;
+    object-position: center;
+    padding: 20px;
+    border-radius: 0.5rem;
+  }
+  
+  
+  .book .book-menu .item h4{
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0.5rem 0 0.5rem;
+  }
+  
+  .book .book-menu .item .content{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+  
+  .book .book-menu .item .content span{
+    padding: 0 1rem;
+    color: #2b0722;
+    background:#ffcbff;
+    border-radius: 4px;
+     font-weight: 500;
+    }
+  
+    .book .book-menu .item .content a{
+      padding: 0 1rem;
+      color: #ffcbff;
+      background:#2b0722;
+      border: 2px;
+      border-radius: 4px;
+      text-align: center;
+      text-transform: uppercase;  
+    }
+  
+    .book .book-menu .item .content button{
+      color: #2b0722;
+      background:#ffcbff;
+border-color: rgb(185, 0, 160);
+    }
+  
+    .book .book-menu .item .content button:hover{
+      color: #ffcbff;
+      background:#2b0722;
+    }
+  
+    .book .book-menu .item p{
+      text-align: center;
+    }
+  
+  
+  
+  .coffee{
+    text-align: center;
+  }
+  
+  
+  .book .book-menu .cream{
+    text-align: center;
+  }
+  
+  .book .book-menu .cream img{
+    width: 80%;
+    height: 180px;
+    object-fit: contain;
+    object-position: center;
+    padding: 20px;
+    border-radius: 0.5rem;
+  }
+  
+  
+  .book .book-menu .cream h4{
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0.5rem 0 0.5rem;
+  }
+  
+  .book .book-menu .cream .content{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+  
+  .book .book-menu .cream .content span{
+    padding: 0 1rem;
+    color: #2b0722;
+      background:#ffcbff;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 500;
+    }
+  
+    .book .book-menu .cream .content a{
+      padding: 0 1rem;
+      color: #ffcbff;
+      background:#2b0722;
+      border: 2px;
+      border-radius: 4px;
+      text-align: center;
+      text-transform: uppercase;  
+    }
+  
+    .book .book-menu .cream .content button{
+      color: #2b0722;
+      background:#ffcbff;
+border-color: rgb(185, 0, 160);
+    }
+  
+    .book .book-menu .cream .content button:hover{
+      color: #ffcbff;
+      background:#2b0722;
+    }
+  
+    .book .book-menu .cream p{
+      text-align: center;
+    }
+  
+  
+  .baked{
+    text-align: center;
+  }
+  
+  .book .book-menu .good1{
+    text-align: center;
+  }
+  
+  .book .book-menu .good1  img{
+    width: 80%;
+    height: 180px;
+    object-fit: contain;
+    object-position: center;
+    padding: 20px;
+    border-radius: 0.5rem;
+  }
+  
+  
+  .book .book-menu .good1 h4{
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0.5rem 0 0.5rem;
+  }
+  
+  .book .book-menu .good1 .content{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+  
+  .book .book-menu .good1 .content span{
+    padding: 0 1rem;
+    color: #2b0722;
+      background:#ffcbff;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 500;
+    }
+  
+    .book .book-menu .good1 .content a{
+      padding: 0 1rem;
+      color: #ffcbff;
+      background:#2b0722;
+      border: 2px;
+      border-radius: 4px;
+      text-align: center;
+      text-transform: uppercase;  
+    }
+  
+    .book .book-menu .good1 .content button{
+      color: #2b0722;
+      background:#ffcbff;
+border-color: rgb(185, 0, 160);
+
+    }
+  
+    .book .book-menu .good1 .content button:hover{
+      color: #ffcbff;
+      background:#2b0722;
+
+    }
+  
+    .book .book-menu .good1 p{
+      text-align: center;
+    }
+  
+  
+  .savory{
+    text-align: center;
+  }
+  
+  
+  .book .book-menu .snack1{
+    text-align: center;
+  }
+  
+  .book .book-menu .snack1  img{
+    width: 80%;
+    height: 180px;
+    object-fit: contain;
+    object-position: center;
+    padding: 20px;
+    border-radius: 0.5rem;
+  }
+  
+  
+  .book .book-menu .snack1 h4{
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0.5rem 0 0.5rem;
+  }
+  
+  .book .book-menu .snack1 .content{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+  
+  .book .book-menu .snack1 .content span{
+    padding: 0 1rem;
+    color: #2b0722;
+    background:#ffcbff;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 500;
+    }
+  
+    .book .book-menu .snack1 .content a{
+      padding: 0 1rem;
+      color: #ffcbff;
+      background:#2b0722;
+      border: 2px;
+      border-radius: 4px;
+      text-align: center;
+      text-transform: uppercase;  
+    }
+  
+    .book .book-menu .snack1 .content button{
+      color: #2b0722;
+      background:#ffcbff;
+border-color: rgb(185, 0, 160);
+    }
+  
+    .book .book-menu .snack1 .content button:hover{
+      color: #ffcbff;
+      background:#2b0722;
+    }
+  
+    .book .book-menu .snack1 p{
+      text-align: center;
+    }
+  
+  
+  .sweet{
+    text-align: center;
+  }
+  
+  
+  .book .books-menu .treat1{
+    text-align: center;
+  }
+  
+  .book .books-menu .treat1  img{
+    width: 80%;
+    height: 180px;
+    object-fit: contain;
+    object-position: center;
+    padding: 20px;
+    border-radius: 0.5rem;
+  }
+  
+  
+  .book .books-menu .treat1 h4{
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0.5rem 0 0.5rem;
+  }
+  
+  .book .books-menu .treat1 .content{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+  }
+  
+  .book .books-menu .treat1 .content span{
+    padding: 0 1rem;
+    color: #2b0722;
+      background:#ffcbff;
+    border-radius: 4px;
+    text-align: center;
+    font-weight: 500;
+    }
+  
+    .book .books-menu .treat1 .content a{
+      padding: 0 1rem;
+      color: #ffcbff;
+      background:#2b0722;
+      border: 2px;
+      border-radius: 4px;
+      text-align: center;
+      text-transform: uppercase;  
+    }
+  
+    .book .books-menu .treat1 .content button{
+      color: #2b0722;
+      background:#ffcbff;
+      border-color: rgb(185, 0, 160);
+    }
+  
+    .book .books-menu .treat1 .content button:hover{
+      color: #2b0722;
+      background:#ffcbff;
+border-color: rgb(185, 0, 160);
+    }
+  
+    .book .books-menu .treat1 p{
+      text-align: center;
+    }
+  
+  
+  

@@ -1,0 +1,100 @@
+.message{
+    width: 110%;
+    min-height: 100vh;
+    max-height: 400vh;
+    background: url('12.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;}
+
+.heading h1{
+    font-size: 28px;
+    color: white;
+}
+
+.container .hero-content h2{
+    font-size: 20px;
+    color: white;
+}
+
+.container .hero-content p{
+    font-size: 16px;
+    color: white;
+}
+
+.container .unique-features h2{
+    font-size: 20px;
+    color: white;
+}
+
+.container .unique-features li{
+    font-size: 16px;
+    color: white;
+}
+
+.container .book-categories h2{
+    font-size: 20px;
+    color: white;
+}
+
+.container .book-categories p{
+    font-size: 16px;
+    color: white;
+}
+
+.customer-love h2{
+    font-size: 20px;
+    color: white;
+}
+
+.testimonial {
+    padding: 1em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    color: #fff;
+}
+
+ .testimonial  .author {
+    font-style: italic;
+    color: #fff;
+}
+
+.join-us h2{
+    font-size: 20px;
+    color: white;
+}
+
+.join-us p{
+    font-size: 16px;
+    color: white;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    background-color: #d21e7b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #b3005c;
+}
+
+.contact h2{
+    font-size: 20px;
+    color: white;
+}
+
+.contact p{
+    font-size: 18px;
+    color: white;
+}
+
+.footer{
+    font-size: 12px;
+    color: white;
+}
